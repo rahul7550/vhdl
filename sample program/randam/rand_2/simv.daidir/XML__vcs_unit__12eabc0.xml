@@ -1,0 +1,77 @@
+<fog_problem>
+    <var_section>
+        <var_list_section>
+            <var_list_item path_id="0">
+                <var_scalar var_id="0" var_prec="3" var_sign="u" enum_id="-1" var_type="N" enum_name="" var_covg="n">
+                    <var_non_array_elem>
+                    </var_non_array_elem>
+                </var_scalar>
+            </var_list_item>
+        </var_list_section>
+        <array_size_var_assoc_section>
+        </array_size_var_assoc_section>
+    </var_section>
+    <aggr_var_section>
+    </aggr_var_section>
+    <func_var_section>
+    </func_var_section>
+    <enum_names_section>
+    </enum_names_section>
+    <alloc_var_assoc_section>
+    </alloc_var_assoc_section>
+    <array_var_section>
+    </array_var_section>
+</fog_problem>
+#
+<problem>
+    <cons_blocks>
+        <cons_block cb_id="0" cb_did="3" cb_always_on="N" cb_type="NORMAL" cb_covg="N">
+            <cons cons_id="1" cons_type="NORMAL">
+                <cons_expr>
+<expr>
+    <expr>
+        <expr_variable var_id="0"/>
+    </expr>
+    <expr>
+        <constant value="010" constant_base="2" precision="3" sign="u" negative="N"/>
+    </expr>
+    <expr_bin_op operator="BRGT" precision="1" sign="u"/>
+</expr>
+                </cons_expr>
+            </cons>
+            <cons cons_id="2" cons_type="NORMAL">
+                <cons_expr>
+<expr>
+    <expr>
+        <expr>
+            <expr_variable var_id="0"/>
+        </expr>
+        <expr_un_op operator="UCP" precision="32" sign="u"/>
+    </expr>
+    <expr>
+        <expr>
+            <constant value="9" constant_base="10" precision="32" sign="s" negative="N"/>
+        </expr>
+        <expr_un_op operator="UCU" precision="0" sign="u"/>
+    </expr>
+    <expr_bin_op operator="BRLEQ" precision="1" sign="u"/>
+</expr>
+                </cons_expr>
+            </cons>
+        </cons_block>
+    </cons_blocks>
+</problem>
+#
+<problem>
+</problem>
+#
+<problem>
+</problem>
+#
+<problem>
+</problem>
+#
+<problem>
+</problem>
+#
+/*	abc	*/

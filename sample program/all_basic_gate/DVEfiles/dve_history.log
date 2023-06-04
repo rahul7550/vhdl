@@ -1,0 +1,33 @@
+# Preference setting overrides
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Layout -key child_console_size_x -value 717
+gui_set_state_value -category Layout -key child_console_size_y -value 178
+gui_set_state_value -category Layout -key child_data_size_x -value 173
+gui_set_state_value -category Layout -key child_data_size_y -value 363
+gui_set_state_value -category Layout -key child_hier_size_x -value 173
+gui_set_state_value -category Layout -key child_hier_size_y -value 363
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 374
+gui_set_state_value -category Layout -key child_source_size_y -value 358
+gui_set_state_value -category Layout -key main_pos_x -value 8
+gui_set_state_value -category Layout -key main_pos_y -value 31
+gui_set_state_value -category Layout -key main_size_x -value 725
+gui_set_state_value -category Layout -key main_size_y -value 718
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_source /home/dvlab14/pgms/all_basic_gate/simv
+gui_list_sort -id  Data.1   {Variable}
+gui_open_source /home/dvlab14/pgms/all_basic_gate/allgates_tb.v
+gui_src_expand -id { Source.1 } -paragraph  1
+gui_src_collapse -id { Source.1 } -paragraph  1
+gui_src_highlight_item -id Source.1 -lfrom 2 -idxfrom 7 -fileIdFrom 0 -lto 2 -idxto 18 -fileIdTo 0 -selection {allgates_tb} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 2 -idxfrom 7 -fileIdFrom 0 -lto 2 -idxto 18 -fileIdTo 0 -selection {allgates_tb} -selectionId 0 -replace 1
+gui_src_highlight_item -id Source.1 -lfrom 2 -idxfrom 15 -fileIdFrom 0 -lto -1 -idxto 0 -fileIdTo 0 -selection {_tb();
+} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 2 -idxfrom 7 -fileIdFrom 0 -lto 2 -idxto 18 -fileIdTo 0 -selection {allgates_tb} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 2 -idxfrom 7 -fileIdFrom 0 -lto 2 -idxto 18 -fileIdTo 0 -selection {allgates_tb} -selectionId 0 -replace 1

@@ -1,0 +1,9 @@
+
+module main(intf.sum, intf.carry, intf.a ,intf.b);
+input intf.a,intf.b;
+output sum, carry;
+
+assign intfsum=intf.a^intf.b;
+assign intf.carry=intf.a&intf.b;
+endmodule 
+

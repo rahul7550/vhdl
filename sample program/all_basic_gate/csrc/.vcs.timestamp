@@ -1,0 +1,63 @@
+17
+/project/Synopsys/VCS/B-2008.12/linux/bin/vcs1
+-Mcfl= -pipe -m32 -O -I/project/Synopsys/VCS/B-2008.12/include 
+-Mldf=-melf_i386 -m32 
+-Mout=simv
+-Mrun=/project/Synopsys/VCS/B-2008.12/linux/lib/libvcs.a
+-Mamsrun=
+-Mvcsaceobjs=
+-Mscsrun= 
+-Mcmodrun=
+-Mobjects= /project/Synopsys/VCS/B-2008.12/linux/lib/libvirsim.a /project/Synopsys/VCS/B-2008.12/linux/lib/librterrorinf.so /project/Synopsys/VCS/B-2008.12/linux/lib/libsnpsmalloc.so 
+-Mcrtn=
+-Mcsrc=
+-Msyslibs=/project/Synopsys/VCS/B-2008.12/linux/lib/ctype-stubs_32.a -ldl -lz 
+allgates.v
+allgates_tb.v
+-sverilog
+-gen_obj
+36
+VMR_MODE_FLAG=32
+VIRSIMHOME=/project/Synopsys/VCS/B-2008.12/gui/virsim
+VENDOR=unknown
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/project/Synopsys/VCS/B-2008.12
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+UNAME=/bin/uname
+TOOL_HOME=/project/Synopsys/VCS/B-2008.12/linux
+TOOLS_DIR=/project/Synopsys
+SYNOPSYS=/project/Synopsys/TMAX/B-2008.09-SP1
+SSH_TTY=/dev/pts/78
+SSH_CONNECTION=10.100.3.38 52579 192.168.3.223 22
+SSH_CLIENT=10.100.3.38 52579 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SCRNAME=vcs
+SCL_HOME=/project/Synopsys/VCS/B-2008.12/scl/10.9.1
+REMOTEHOST=10.100.3.38
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+OSTYPE=linux
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+LDEMULATION=elf_i386
+KDE_NO_IPV6=1
+KDE_IS_PRELINKED=1
+KDEDIR=/usr
+INPUTRC=/etc/inputrc
+HOSTTYPE=x86_64-linux
+HOSTNAME=ganga.traning.local
+HOST=ganga.traning.local
+G_BROKEN_FILENAMES=1
+GROUP=dvlab14
+DC_HOME=/project/Synopsys/DC/B-2008.09-SP1-1
+CVS_RSH=ssh
+0
+4
+1430767012 allgates_tb.v
+1430767013 allgates.v
+1430767012 allgates_tb.v
+1430767013 allgates.v
+1430810929 simv.daidir
+1430810929 csrc
